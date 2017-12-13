@@ -60,29 +60,29 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 332);
+/******/ 	return __webpack_require__(__webpack_require__.s = 331);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 332:
+/***/ 331:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _jquery = __webpack_require__(333);
+var _jquery = __webpack_require__(332);
 
 var _jquery2 = _interopRequireDefault(_jquery);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // Made jquery available through window, make it global for app
-window.$ = _jquery2.default;
+window.$ = _jquery2.default; // Here will be vendors libs
 
 /***/ }),
 
-/***/ 333:
+/***/ 332:
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
