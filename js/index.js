@@ -9024,6 +9024,8 @@ __webpack_require__(328);
 
 var _navbar = __webpack_require__(329);
 
+(0, _navbar.navbar)('.global-menu');
+
 /***/ }),
 /* 328 */
 /***/ (function(module, exports) {
@@ -9036,6 +9038,21 @@ var _navbar = __webpack_require__(329);
 
 "use strict";
 
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+function navbar(cssSelector) {
+    var navbarWrapper = document.querySelector(cssSelector);
+    var navbarControl = navbarWrapper.querySelector('.navbar-toggler');
+
+    function toggle() {
+        navbarWrapper.classList.toggle('menu_open');
+    }
+    navbarControl.addEventListener('click', toggle);
+}
+exports.navbar = navbar;
 
 /***/ })
 /******/ ]);
